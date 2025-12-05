@@ -384,18 +384,19 @@ The investor experience is **single front-end** (PE-Projects), while regulatory 
   - Portfolio dashboard.
 
 ### E.4 Mermaid Diagram — Full User Flow
+
 ```mermaid
 flowchart LR
-    LP[Landing Page]
-    REG[Sign-Up / Login]
-    KYC[KYC & Investor Profiling (Concedus)]
-    PROD[SpaceX Product Page]
-    CONF[Investment Configuration]
-    PAY[Payment (Stripe/SEPA via Concedus)]
-    WAL[Wallet Creation (Tangany)]
-    ALLOC[Token Allocation]
-    REGUPD[Nyala Registry Update]
-    PORT[Portfolio Dashboard]
+    LP[Landingpage]
+    REG[Registrierung / Anmeldung]
+    KYC[KYC & Investor-Profil Profiierung Concedus]
+    PROD[SpaceX Produktseite]
+    CONF[Investment-Konfiguration]
+    PAY[Zahlung Stripe/SEPA über Concedus]
+    WAL[Brieftasche-Erstellung Tangany]
+    ALLOC[Token-Zuteilung]
+    REGUPD[Nyala Registry-Update]
+    PORT[Portfolio-Dashboard]
 
     LP --> REG
     REG --> KYC
@@ -407,7 +408,6 @@ flowchart LR
     ALLOC --> REGUPD
     REGUPD --> PORT
 ```
-
 ---
 
 ## 7. Section F — Backend System Architecture
