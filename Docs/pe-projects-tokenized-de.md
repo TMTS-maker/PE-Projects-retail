@@ -31,7 +31,7 @@ Privatanleger erhalten SpaceX-Exposition über PE-Projects, investieren über ei
 - **Geschäft & Produkt:** PE-Projects als Marktplatz für tokenisierte PE.
 - **Vermögenserwerbung:** SPVs, die zugrunde liegende PE-Anteile erwerben und halten (Beispiel: SpaceX-Sekundäranteil).
 - **Tokenisierung:** Nyala-eWpG-Register + Polygon-Token-Verträge + Tangany-Verwahrung.
-- **Regulierte Verteilung:** Concedus als WpHG-Wertpapierhandelsunternehmen einschließlich KYC/AML und Kundeneinstufung.
+- **Regulierte Verteilung:** Concedus als WpHG-Wertpapierhandelsunternehmen optional KYC/AML und Kundeneinstufung.
 - **Systemarchitektur:** API-gesteuerte Microservices (Benutzer, Wallet, Tokenisierung, Zahlung, KYC, Registry, Verwahrung).
 - **Risiko & Compliance:** Klare Zuordnung von Verantwortlichkeiten und Kontrollen.
 
